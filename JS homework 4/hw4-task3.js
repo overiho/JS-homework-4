@@ -29,7 +29,6 @@ function likePop(arr) {
     return a;
 }
 console.log(likePop(arrPop));
-console.log(arrPop);
 
 // Метод push() добавляет один или более элементов в конец массива 
 // и возвращает новую длину массива.
@@ -41,7 +40,7 @@ console.log(arrPop);
 // был вызван данный метод.
 console.log("_____________push()____________")
 let arrPush = fill(4);
-console.log(arrPush);
+// console.log(arrPush);
 function likePush (arr, value) {
     arr[arr.length] = value;
     return arr.length;
