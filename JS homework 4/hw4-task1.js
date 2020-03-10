@@ -58,7 +58,7 @@ function chairs(quan, ...arrs) {
                 if (j % 2 == 1) {      //элементы формата [i]['нечетное'] - число
                     continue;
                 } else {
-                    let tempI = (arrs[i][j+1] - arrs[i][j].length);  //кол-во свободных стульев в комтане i
+                    let tempI = (arrs[i][j+1] - arrs[i][j].length);  //кол-во свободных стульев в комнане i
                     // console.log(tempI);
                     if (quan >= 0) {                                 //Прверка "Нужны ли еще стулья?"
                         if (tempI > quan) {                          //Поверка "В комнате больше свободных стулье, чем нужно"
